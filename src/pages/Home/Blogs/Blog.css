@@ -1,0 +1,13 @@
+.header-text{
+    position:relative;
+}
+.header-text::after{
+    content: "";
+    position:absolute;
+    bottom:0;
+    right:47%;
+    width:80px;
+    border-bottom:2px solid #f59e0b;
+    border-radius:5px ;
+
+}

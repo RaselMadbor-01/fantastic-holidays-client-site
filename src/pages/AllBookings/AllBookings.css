@@ -1,0 +1,30 @@
+#booking-table{
+border-collapse: collapse;
+width:98%;
+background-color:#fff;
+border:none;
+border-radius: 10px;
+}
+
+#booking-table td, #booking-table th {
+padding: 20px;
+}
+#booking-table tr{
+    background-color:#fff;
+    color:rgb(83, 80, 80);
+}
+#booking-table th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #a8aaa9;
+color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    #booking-table{
+        width:auto;
+        overflow-x:auto;
+        }
+    
+  }

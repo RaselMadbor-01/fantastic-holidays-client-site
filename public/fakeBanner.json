@@ -1,0 +1,16 @@
+[{
+    "id": 1,
+    "title": "Explore the world by traveling",
+    "description":  "Travel has helped us to understand the meaning of life and it has helped us become better people. Each time we travel, we see the world with new eyes.",
+    "image": "https://i.imgur.com/7QKUsI8.png"
+  }, {
+    "id": 2,
+    "title": "inspiring,beautiful,breathtaking",
+    "description": "Many people visit  to see the impressive icon nature ,which are deservedly a stand alone destination",
+    "image": "https://i.imgur.com/FliRT8u.png"
+  }, {
+    "id": 3,
+    "title": "Perfect Your Dream Vaction",
+    "description": "This is one of those places that every single traveller should be experience once in their life.",
+    "image": "https://i.imgur.com/UtnGdZU.png"
+  }]

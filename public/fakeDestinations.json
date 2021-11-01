@@ -1,0 +1,67 @@
+[{
+    "id": 1,
+    "name": "Piazza Castello",
+    "detail": "With its 40.000 square meters Piazza Castello is the second biggest plaza of Turin. Designed by the architect Ascanio Vitozzi, it rises in the very center of the magical Piedmont capital. ... Some among the most important Turin attractions give onto Piazza Castello.",
+    "image": "https://i.imgur.com/r4BZW8g.png",
+    "rating":  3.5,
+    "price": 500,
+    "day": 3,
+    "night": 2,
+    "people": 160,
+    "location":"Hvar, Croatia"
+  }, {
+    "id": 2,
+    "name": "Santorini, Oia ,Greece",
+    "detail": "Oia is a traditional settlement in the north of Santorini. It is also known as 'Apano Meria' or 'Anomeria' and the inhabitants are called 'Apanomerites'. The village is approximately 150 meters above sea level. Oia was severely damaged in the 1956 earthquake and much work has been involved to implement its restoration.",
+    "image": "https://i.imgur.com/AsWXojD.png",
+    "rating": 4.5,
+    "price": 2000,
+    "day": 7,
+    "night": 6,
+    "people":65,
+    "location":"Santorini, Oia ,Greece"
+  }, {
+    "id": 3,
+    "name": "Gulf of Thailand",
+    "detail": "The Gulf of Thailand is a shallow arm of the South China Sea (Figures 1 and 2) and is open to it at the surface for a distance of 200 miles. The Gulf extends approximately 450 miles. Its greatest width is approximately 300 miles; its greatest depth, in the center, is slightly more than 80 m.",
+    "image": "https://i.imgur.com/6oRUjMt.png",
+    "rating": 3,
+    "price": 2100,
+    "day": 5,
+    "night": 4,
+    "people": 96,
+    "location":"Gulf of Thailand, Thailand"
+  }, {
+    "id": 4,
+    "name": "Santorini, Oia ,Greece",
+    "detail": "Oia is a traditional settlement in the north of Santorini. It is also known as 'Apano Meria' or 'Anomeria' and the inhabitants are called 'Apanomerites'. The village is approximately 150 meters above sea level. Oia was severely damaged in the 1956 earthquake and much work has been involved to implement its restoration.",
+    "image": "https://i.imgur.com/9WzTaNW.png",
+    "rating": 4,
+    "price": 2000,
+    "day":7,
+    "night": 6,
+    "people": 56,
+    "location":"Santorini, Oia ,Greece"
+  }, {
+    "id": 5,
+    "name": "Burj Khalifa",
+    "detail": "Burj Khalifa (Arabic: برج خليفة‎, 'Khalifa Tower') is an extremely tall skyscraper in Dubai, United Arab Emirates named after Khalifa bin Zayed Al Nahyan, and is the tallest building ever built, at 828 metres (2,717 feet).",
+    "image": "https://i.imgur.com/L8LyF9f.png",
+    "rating": 4.5,
+    "price":1700,
+    "day": 5,
+    "night": 4,
+    "people": 110,
+    "location":"United Arab Emirates"
+  }, {
+    "id": 6,
+    "name": "Sloped California",
+    "detail": "California Street is a major thoroughfare in San Francisco, California. It is one of the longest streets in San Francisco, and includes a number of important landmarks. It runs in an approximately straight 5.2 mi (8.4 km) east-west line from the Financial District to Lincoln Park in the far Northwest corner of the City.",
+    "image": "https://i.imgur.com/6XFsXav.png",
+    "rating": 3,
+    "price":1500,
+    "day": 3,
+    "night": 2,
+    "people": 160,
+    "location":"California Street, USA"
+  }]

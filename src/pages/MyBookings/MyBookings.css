@@ -1,0 +1,13 @@
+.order-text{
+    position:relative;
+}
+.order-text::after{
+    content: "";
+    position:absolute;
+    bottom:0;
+    right:30%;
+    width:200px;
+    border-bottom:2px solid #f59e0b;
+    border-radius:5px ;
+
+}

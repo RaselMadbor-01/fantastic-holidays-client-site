@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
+import AuthProvider from './context/AuthProvider/AuthProvider';
+import AllBookings from './pages/AllBookings/AllBookings';
+import BookYourDestination from './pages/BookYourDestinaiton/BookYourDestination';
+import Home from './pages/Home/Home/Home';
+import Login from './pages/Login/Login';
+import MyBookings from './pages/MyBookings/MyBookings';
+import NotFound from './pages/NotFound/NotFound';
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <AuthProvider>
+      <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home/>
+        </Route>
+        <Route  path="/home">
+          <Home/>
+        </Route>
+        <Route path="/login">
+          <Login/>
+        </Route>
+        <PrivateRoute path="/allBookings">
+          <AllBookings/>
+        </PrivateRoute>
+        <PrivateRoute path="/mybookings">
+          <MyBookings/>
+        </PrivateRoute>
+        <PrivateRoute path="/destination/:id">
+          <BookYourDestination/>
+        </PrivateRoute>
+        <Route path="*">
+          <NotFound/>
+        </Route>
+      </Switch>
+    </Router>
+   </AuthProvider>
   );
 }
 
