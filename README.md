@@ -6,10 +6,8 @@
 ## By any reason you can also delete your bookings.
 ## This is an authentication base website.
 
-* Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+* This is an travel and tour organization.
+* This is an travel and tour organization.
 
 
 
